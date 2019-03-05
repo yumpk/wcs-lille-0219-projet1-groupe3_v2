@@ -15,6 +15,31 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
 }
 
+h2 {
+    padding-bottom: 10px;
+}
+
+.dropdown-item {
+    font-weight: 700;
+    margin: 10px 0 30px 0;
+    padding: 0px 80px 0 15px !important;
+}
+
+.dropdown-item:hover {
+    color: #223649 !important;
+    background-color: #fdfdfd !important;
+}
+
+a:hover {
+    color: #223649 !important;
+}
+
+.dropdown-menu {
+    border: none;
+    background-color: #FDFDFD;
+    margin-left: 20px;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -51,6 +76,15 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
 }
 
+.navbar-light .navbar-nav .active>.nav-link {
+    border-bottom: 5px solid #49da88;
+    padding-bottom: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #223649 !important;
+}
+
 nav {
     font-size: 22px;
     font-weight: 700;
@@ -71,30 +105,85 @@ ul {
     max-width: 940px;
 }
 
-.card {
-    display: flex;
-    padding: 0;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-}
-
-.card-body {
-    margin: 20px;
-}
-
 .btn-primary {
+    color: #fff;
     font-weight: 700;
     font-size: 20px;
-    color: #fff;
     background-color: #34DA88 !important;
     border-color: #34DA88 !important;
+    padding: 8px 20px;
+    width: 100%;
 }
 
-a:hover {
+.btn-primary:hover {
     color: #fff !important;
 }
 
-.justify-content-between {
-    margin: 0px;
+a:hover {
+    color: #223649 !important;
+}
+
+.image-flip {
+    cursor: pointer;
+}
+
+.card {
+    margin: 14px 0;
+    border: 1px solid #f5f5f5;
+}
+
+.card-body {
+    text-decoration: none !important;
+    color: #223649;
+}
+
+.badge-city, .badge-companies, .badge-since {
+    color: #afafaf;
+    background-color: #afafaf35;
+    border: 1px solid #afafaf;
+    font-weight: 600;
+    padding: 7px;
+    text-transform: uppercase;
+    margin: 5px 2px;
+}
+
+.startup-logo {
+    vertical-align: middle;
+    border-style: none;
+    margin: 0 auto;
+    width: 108px;
+    display: block;
+    border: 6px solid #fff;
+    border-radius: 80px;
+    margin-top: -71px;
+    position: relative;
+}
+
+.startup-title {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.discover {
+    display: none;
+}
+
+.page-footer {
+    border: 1px solid #f5f5f5;
+}
+
+.grey-text {
+    color: #868686;
+}
+
+.grey-text:hover {
+    color: #868686;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 40px;
+    border-top: 1px solid #f5f5f5;
 }
