@@ -105,6 +105,13 @@ ul {
     max-width: 940px;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .btn-primary {
     color: #fff;
     font-weight: 700;
@@ -113,7 +120,7 @@ ul {
     border-color: #34DA88 !important;
     padding: 8px 20px;
     width: 100%;
-    margin: 0 15px;
+    margin: 25px 15px;
 }
 
 .btn-primary:hover {
@@ -139,6 +146,10 @@ a:hover {
     opacity: 0.8;
 }
 
+.reset-gray {
+    filter: grayscale(0%);
+}
+
 .card-body {
     text-decoration: none !important;
     color: #223649;
@@ -157,6 +168,10 @@ a:hover {
     padding: 7px;
     text-transform: uppercase;
     margin: 5px 2px;
+}
+
+.card-centered {
+    text-align: center;
 }
 
 .startup-logo {
@@ -187,6 +202,7 @@ a:hover {
      line-height: 36px;
      font-size: 20px;
      color: #868686;
+     text-align: justify;
  }
 
 .page-footer {
