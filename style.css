@@ -1,0 +1,100 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #223649;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h1, h2, h3, h4, h5 {
+    width: 100%;
+    font-weight: 700;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.nerdy-pen {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 13px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    &__text {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        padding: 1em 2em;
+        text-align: center;
+        font-size: 3.5em;
+    }
+}
+
+.colored-text {
+    color: #34DA88;
+}
+
+.navbar-light .navbar-brand {
+    color: #223649 !important;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 12px;
+}
+
+.nav-item {
+    padding: 0px 0px 0px 12px;
+}
+
+ul {
+    left: auto !important;
+    right: 0px;
+    margin-top: 10px;
+}
+
+.container-fluid {
+    max-width: 940px;
+}
+
+.card {
+    display: flex;
+    padding: 0;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-body {
+    margin: 20px;
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background-color: #34DA88 !important;
+    border-color: #34DA88 !important;
+}
+
+a:hover {
+    color: #fff !important;
+}
+
+.justify-content-between {
+    margin: 0px;
+}
