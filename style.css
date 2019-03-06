@@ -2,6 +2,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#more {
+  display: none;
+}
+section {
+  margin-top: 5%;
+}
+
 body {
     color: #223649;
 }
@@ -256,7 +263,7 @@ a:hover {
     width: 100%;
     margin-bottom: -149px;
 }
-    
+
 .map-responsive-incub iframe {
     left:0;
     top:0;
@@ -269,7 +276,22 @@ a:hover {
     margin: 0 0;
 }
 
-<<<<<<< HEAD
+.map-responsive-euratek {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-responsive-euratek iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
 .website-btn {
     border: 1px solid #34DA88;
     border-radius: 5px;
@@ -282,10 +304,11 @@ a:hover {
 
 .fab {
     margin: 7% 0;
-=======
+
 @media screen and (max-width: 640px) {
     .nerdy-pen__text {
         font-size: 48px;
     }
->>>>>>> 9c4ac6d07abeb19f9d7cde4f3ca5b08fc62269ed
+
 }
+
