@@ -2,6 +2,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#more {
+  display: none;
+}
+section {
+  margin-top: 5%;
+}
+
 body {
     color: #223649;
 }
@@ -253,7 +260,7 @@ a:hover {
     width: 100%;
     margin-bottom: -149px;
 }
-    
+
 .map-responsive-incub iframe {
     left:0;
     top:0;
@@ -267,6 +274,21 @@ a:hover {
 }
 
 /*** COMPANY PAGE ***/
+.map-responsive-euratek {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-responsive-euratek iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
 
 .website-btn {
     border: 1px solid #34DA88;
