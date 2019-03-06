@@ -15,8 +15,10 @@
 
     <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
-
-    <title>Hello, world!</title>
+    <!-- fonticon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Incubator Euratechnologies</title>
 </head>
 
 <body>
@@ -30,10 +32,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Incubators
@@ -48,24 +50,58 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="team.html">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <section class="nerdy-pen">
-            <h1 class="nerdy-pen__text d-flex justify-content-center">Euratechnologies<span
-                    class="colored-text">.</span>
-            </h1>
-        </section>
+    <!-- CAROUSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 slider"
+              src="images/Incubateur.jpg" alt="First slide">
+            <div class="img-text slide1">
+                <b>Euratechnologies</b>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 slider"
+              src="images/lblf-jardin-terrasse.png"
+              alt="Second slide">
+            <div class="img-text slide2">
+              <b>Euratechnologies</b>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 slider"
+              src="images/terrasse-leswitch.jpg" alt="Third slide">
+            <div class="img-text slide3">
+              <b>Euratechnologies</b>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        
     </div>
 
     <!-- ABOUT US -->
@@ -73,147 +109,238 @@
         <div class="container">
             <h2>ABOUT EURATECHNOLOGIES 👍</h2>
             <div class="row">
+
                 <p class="about-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere sodales ante ac semper. Etiam
-                    nisi
-                    sem, fermentum sit amet egestas non, fringilla sed sapien. Sed finibus, tellus ac aliquam placerat,
-                    diam
-                    sem porttitor leo, a scelerisque neque purus eget arcu. Suspendisse sollicitudin, ante vel egestas
-                    dapibus, nulla dui porttitor velit, ac tempor sem neque in felis. Suspendisse in erat ut libero
-                    accumsan
-                    malesuada. Proin nec felis quis nisl faucibus tempor vel nec lacus. Pellentesque arcu turpis,
-                    faucibus
-                    ac dapibus et, pharetra eget risus. Curabitur vel auctor leo. Phasellus nec erat id ex euismod
-                    pulvinar.
-                    Mauris eu erat ac erat scelerisque interdum vel nec nunc. Integer consectetur metus at sagittis
-                    commodo.
-                    In sodales euismod mi, a cursus quam sagittis et. Proin ac quam porttitor, feugiat diam a, aliquet
-                    nisi.
-                </p>
+                  EuraTechnologies, the French incubator and accelerator, is a centre of excellence and innovation located in Lille on 80,000 m². EuraTechnologies supports the development of all digital entrepreneurs through a unique methodology and expertise in supporting companies from their beginning to their international deployment. Established in 2009, EuraTechnologies has been ranked in Europe’s top 10 accelerators by Fundacity. EuraTechnologies is the precursor and spearhead of French digital economy of <strong>French Tech with 300+ companies, 4000+ employees, 300+ supported projects, 500+ annual events, 170M € + fundraising since 2009</strong> (seed funding and Series A) and an international network (San Francisco, Dubai, Shanghai, New York, Belo Horizonte).
+Thanks to its expertise and awareness of regional needs, EuraTechnologies in Lille has diversified its offerings, first in Roubaix in 2014 (BlancheMaille), with 13,000m² of space dedicated to hosting and developing retail and e-commerce champions. Today, the spin-off boasts over a dozen incorporations since their launch, with over 200 employees on-site.
+In 2018, Euratechnologies continues to reinforce their objective to create specialised spin-off incubators with the launch of AgTech, based in Willems. This 1000m² building will host future entrepreneurs dedicated to creating innovative agriculture startups in collaboration with local agricultural partners.
+Considered an “Enabler” and revealer of talents, EuraTechnologies accelerates the digital transformation in the service of economic development. EuraTechnologies is supported by its three historic shareholders, the European Metropolis of Lille (MEL), the Hauts-de-France region and the City of Lille, joined by Crédit Agricole, Crédit Mutuel and Caisse d’Epargne.
+                </p><span id="dots"></span><span id="more">
+
+              <h3>PHILOSOPHY</h3>
+
+              <p class="about-text" ><strong>Join an innovative and growth-focused ecosystem!</strong>
+                EuraTechnologies is currently home to 300 companies, ranging from some of the biggest names in the global IT sector to brilliant and innovative new tech startups that are changing the industry on a daily basis. EuraTechnologies is composed of more than 250 different professions and complementary skill  sets in the following sectors:
+                •        Enterprise software (retail, transport, energy, banking, insurance, health)
+                •        Internet of Things (IoT)
+                •        Big Data
+                •        Cybersecurity
+                •        Social, Local, and Mobile (SoLoMo)
+                •        Digital E-commerce
+                A flexible, personalized, animated, and digitally connected leasing opportunity
+                EuraTechnologies offers a scalable model for leasing spaces, <strong>from 24 m² to over 5,000 m²</strong>
+                The strength of EuraTechnologies comes from working closely with developing businesses to ensure that office space concerns will never slow down the growth of your business. Enjoy work spaces that are adapted to suit you, and fill them with the talented individuals your business needs to prosper.
+                Setting up your business at EuraTechnologies allows you to enjoy our full range of high-level digital services, including full fiber-optic connectivity, access to server rooms, and eight on-site technical experts. Join our professional digital ecosystem to ensure exceptional conditions for your business growth and project development.
+                Every company at EuraTechnologies has access to our numerous and diverse <strong>shared services</strong> that help optimize the work environment, including meeting rooms, auditoriums, conference halls, a data center, a digital creation studio, a cafeteria, a business restaurant, and much more.
+                With more than 500 events and 60,000 visitors in 2016 alone, the lively and animated atmosphere at EuraTechnologies is a key factor in business development and networking on the local, national, and international levels. Infinite opportunities for growth can be found just steps from your office door.
+                The proximity of many <strong>academic and research institutions</strong> such as SKEMA, HEI Lille, EDHEC, Lille University, CEA Tech, InriaTech, AdiCode, SILab and CITC allow your business to achieve cutting-edge innovation by hiring the most promising talents in their respective fields.
+              </p></span>
+
+              <button onclick="myFunction()" class="btn btn-primary btn-sm" id="read-more-button">Read More</button>
+              <!--
+              <div class="btn btn-primary btn-sm" >
+                <button id="toggle">Read More</button>
+              </div>-->
+        </div>
+    </section>
+
+        <!-- STARTUPS -->
+        <section>
+            <div class="container">
+                <h2>OUR STARTUPS 🚀</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <a href="companies-about.html" class="card-body">
+                                        <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+                                                style="height: 180px; width: 100%; display: block;"
+                                                src="images/frizbiz.jpg" data-holder-rendered="true"></p>
+                                        <img src="images/12642809_935135496571629_2712901953280410684_n.png"
+                                            alt="startup-logo" class="startup-logo" />
+                                        <h4 class="card-title startup-title">Frizbiz</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+                                        <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <a href="companies-about.html" class="card-body">
+                                        <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+                                                style="height: 180px; width: 100%; display: block;"
+                                                src="images/310x190_locaux-accelerateur-appiway-lille.jpg"
+                                                data-holder-rendered="true"></p>
+                                        <img src="images/Appiway_Logo1-e1539616288228.png" alt="startup-logo"
+                                            class="startup-logo" />
+                                        <h4 class="card-title startup-title">Appiway</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+                                        <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <a href="companies-about.html" class="card-body">
+                                        <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+                                                style="height: 180px; width: 100%; display: block;"
+                                                src="images/Photo-1-500x313.png" data-holder-rendered="true"></p>
+                                        <img src="images/logo20Adista.jpg" alt="startup-logo" class="startup-logo" />
+                                        <h4 class="card-title startup-title">Adista</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+                                        <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <a href="companies-about.html" class="card-body">
+                                        <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+                                                style="height: 180px; width: 100%; display: block;"
+                                                src="images/BANNIERE-annybuddy3.jpg" data-holder-rendered="true"></p>
+                                        <img src="images/anybuddy.png" alt="startup-logo" class="startup-logo" />
+                                        <h4 class="card-title startup-title">Anybuddy</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+                                        <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <a href="companies-about.html" class="card-body">
+                                        <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+                                                style="height: 180px; width: 100%; display: block;"
+                                                src="images/5bd190249efe9.jpg" data-holder-rendered="true"></p>
+                                        <img src="images/ProfilFacebook.jpg" alt="startup-logo" class="startup-logo" />
+                                        <h4 class="card-title startup-title">Bee fid</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+                                        <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <a href="companies-about.html" class="card-body">
+                                        <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+                                                style="height: 180px; width: 100%; display: block;"
+                                                src="images/hqdefault.jpg" data-holder-rendered="true"></p>
+                                        <img src="images/Twitter-Profil.jpg" alt="startup-logo" class="startup-logo" />
+                                        <h4 class="card-title startup-title">Kylii Kids</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+                                        <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">SEE MORE</a>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Services & Equipements-->
+    <section> 
+   <div class="container">
+        <h2>EQUIPEMENT</h2>
+        <div class="row">
+        
+    <div class="col order-last"><i class='fas fa-couch' style='font-size:24px'></i>
+      Espace VIP
+    </div>
+    <div class="col">
+     <i class='fas fa-building' style='font-size:24px'></i>conference hall
+    </div>
+    <div class="col order-first"> 
+      <i class='far fa-building' style='font-size:24px'> </i>10 meeting rooms
+    </div>
+  </div>
+</div>
+ <div class="container">
+  <div class="row">
+    <div class="col order-last"><i class='fas fa-university' style='font-size:24px'> </i> Atrium
+    
+    </div>
+    <div class="col"><i class='fas fa-gopuram' style='font-size:24px'></i>
+     Auditorium
+    </div>
+    <div class="col order-first"><i class='fas fa-city' style='font-size:24px'> </i> 1coworking room
+      
+    </div>
+  </div>
+</div>
+    
+
+    <div class="container">
+            <h2>SERVICES</h2>
+        <div class="row">
+        
+    <div class="col order-last"><i class='fas fa-car-alt' style='font-size:24px'> </i> 2 parkings
+      
+    </div>
+    <div class="col"><i class='fas fa-coffee' style='font-size:24px'>  </i>1 cafeteria
+   
+    </div>
+    <div class="col order-first"><i class='fas fa-hamburger' style='font-size:24px'></i> 5restaurants
+    
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col order-last"><i class='fas fa-bus' style='font-size:24px'> </i> Bus&metro
+    
+    </div>
+    <div class="col"><i class="fa fa-bicycle" style="font-size:24px"> </i> 1 self service bicycle
+    
+    </div>
+    <div class="col order-first"><i class='fas fa-wine-bottle' style='font-size:24px'></i>2bar
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <!-- MAP-->
+    <section>
+        <div class="container">
+            <h2>LOCATION</h2>
+            <div class="row reset-margin">
+                <div class=".map-responsive-euratek">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.691730818041!2d3.0190025718274693!3d50.63284323266839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55c764ab439%3A0x2e9bfd5c48d283b!2sEuraTechnologies!5e0!3m2!1sfr!2sfr!4v1551779212194" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- STARTUPS -->
-    <section>
-        <div class="container">
-            <h2>OUR STARTUPS 🚀</h2>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <a href="frizbiz.html" class="card-body">
-                                    <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
-                                            style="height: 180px; width: 100%; display: block;" src="images/frizbiz.jpg"
-                                            data-holder-rendered="true"></p>
-                                    <img src="images/12642809_935135496571629_2712901953280410684_n.png"
-                                        alt="startup-logo" class="startup-logo" />
-                                    <h4 class="card-title startup-title">Frizbiz</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description
-                                        and button.</p>
-                                    <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <a href="frizbiz.html" class="card-body">
-                                    <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
-                                            style="height: 180px; width: 100%; display: block;"
-                                            src="images/310x190_locaux-accelerateur-appiway-lille.jpg"
-                                            data-holder-rendered="true"></p>
-                                    <img src="images/Appiway_Logo1-e1539616288228.png" alt="startup-logo"
-                                        class="startup-logo" />
-                                    <h4 class="card-title startup-title">Appiway</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description
-                                        and button.</p>
-                                    <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <a href="frizbiz.html" class="card-body">
-                                    <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
-                                            style="height: 180px; width: 100%; display: block;"
-                                            src="images/Photo-1-500x313.png" data-holder-rendered="true"></p>
-                                    <img src="images/logo20Adista.jpg" alt="startup-logo" class="startup-logo" />
-                                    <h4 class="card-title startup-title">Adista</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description
-                                        and button.</p>
-                                    <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <a href="frizbiz.html" class="card-body">
-                                    <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
-                                            style="height: 180px; width: 100%; display: block;"
-                                            src="images/BANNIERE-annybuddy3.jpg" data-holder-rendered="true"></p>
-                                    <img src="images/anybuddy.png" alt="startup-logo" class="startup-logo" />
-                                    <h4 class="card-title startup-title">Anybuddy</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description
-                                        and button.</p>
-                                    <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <a href="frizbiz.html" class="card-body">
-                                    <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
-                                            style="height: 180px; width: 100%; display: block;"
-                                            src="images/5bd190249efe9.jpg" data-holder-rendered="true"></p>
-                                    <img src="images/ProfilFacebook.jpg" alt="startup-logo" class="startup-logo" />
-                                    <h4 class="card-title startup-title">Bee fid</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description
-                                        and button.</p>
-                                    <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <a href="frizbiz.html" class="card-body">
-                                    <p><img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
-                                            style="height: 180px; width: 100%; display: block;"
-                                            src="images/hqdefault.jpg" data-holder-rendered="true"></p>
-                                    <img src="images/Twitter-Profil.jpg" alt="startup-logo" class="startup-logo" />
-                                    <h4 class="card-title startup-title">Kylii Kids</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description
-                                        and button.</p>
-                                    <a href="#" class="btn btn-primary btn-sm discover">Discover</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="btn btn-primary btn-sm">SEE MORE</a>
-            </div>
-        </div>
-    </section>
 
     <!-- FOOTER -->
     <footer class="page-footer font-small blue pt-4">
@@ -226,67 +353,67 @@
                 <hr class="clearfix w-100 d-md-none pb-3">
                 <div class="col-md-3 mb-md-0 mb-3">
 
-                    <h5 class="text-uppercase">Incubators</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!" class="grey-text">Euratechnologies</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Eurasanté</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Blanchemaille</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Alacrité</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Agtech</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Innov</a>
-                        </li>
-                    </ul>
-                </div>
+                        <h5 class="text-uppercase">Incubators</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="grey-text">Euratechnologies</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Eurasanté</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Blanchemaille</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Alacrité</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Agtech</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Innov</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <hr class="clearfix w-100 d-md-none pb-3">
-                <div class="col-md-3 mb-md-0 mb-3">
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
 
-                    <h5 class="text-uppercase">Teams</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!" class="grey-text">Sabine</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Shamsia</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Johan</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Khalid</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Damien</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="grey-text">Samir</a>
-                        </li>
-                    </ul>
+                        <h5 class="text-uppercase">Teams</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="grey-text">Sabine</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Shamsia</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Johan</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Khalid</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Damien</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text">Samir</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">Made with 🤘 by group 3 - 2019
-        </div>
-        <!-- Copyright -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">Made with 🤘 by group 3 - 2019
+            </div>
+            <!-- Copyright -->
 
-    </footer>
-    <!-- Footer -->
+        </footer>
+        <!-- Footer -->
 
     <!-- Optional JavaScript -->
-    <script type="text/javascript" src="auto-type.js"></script>
+    <script src="auto-type.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -298,6 +425,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <!-- JS Read more -->
+        <script>function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("read-more-button");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}</script>
 </body>
 
 </html>
