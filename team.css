@@ -28,6 +28,11 @@
   margin: -10vh 27vh;
   position: relative;
   width: 60%;
+    transition: 1.3s;
+}
+
+.team-member:hover img {
+    filter: saturate(100%);
 }
 
 .separation {
