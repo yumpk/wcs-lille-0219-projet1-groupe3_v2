@@ -1,0 +1,10 @@
+.descriptionbuttons{
+    margin-top:22%;
+    position: absolute;
+    }
+
+@media (max-width: 576px) {
+    .descriptionbuttons {
+        display: none;
+    }
+    }
