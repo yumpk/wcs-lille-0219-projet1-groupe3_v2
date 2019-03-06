@@ -235,3 +235,9 @@ a:hover {
 .reset-margin {
     margin: 0 0;
 }
+
+@media screen and (max-width: 640px) {
+    .nerdy-pen__text {
+        font-size: 48px;
+    }
+}
