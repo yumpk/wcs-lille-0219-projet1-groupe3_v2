@@ -16,7 +16,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
+    margin-top: 20px;
     padding-bottom: 10px;
+    border-bottom: 15px solid #72fe83;
+    height: 38px;
+    width: fit-content;
+    margin-bottom: 30px; 
 }
 
 .dropdown-item {
@@ -113,7 +118,7 @@ ul {
     border-color: #34DA88 !important;
     padding: 8px 20px;
     width: 100%;
-    margin: 0 15px;
+    margin: 45px 15px 0;
 }
 
 .btn-primary:hover {
