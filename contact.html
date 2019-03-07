@@ -1,62 +1,186 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>contact</title>
-  </head>
-  <body>
-    <div class="container-fluid"">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
 
-  
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1"></label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Company">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="Email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send your message</button>
-    </form>
-  </div>
-</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Incub' in Lille<span class="colored-text">.</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Incubators
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="euratechnologies.html">Euratechnologies</a>
+                        <a class="dropdown-item" href="#">Eurasanté</a>
+                        <a class="dropdown-item" href="#">Blanchemaille</a>
+                        <a class="dropdown-item" href="#">Alacrité</a>
+                        <a class="dropdown-item" href="#">Agtech</a>
+                        <a class="dropdown-item" href="#">Cré'Innov</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="nerdy-pen height-nerdy">
+            <h1 class="nerdy-pen__text">Want to
+                <span class="txt-rotate colored-text" data-period="1800" data-rotate='[ "hire", "contact" ]'></span>
+                us ?
+            </h1>
+        </section>
+    </div>
+
+
+    <!-- FORM -->
+    <section class="form-container">
+        <div class="container">
+            <h2>CONTACT FORM ✒️</h2>
+            <form>
+                <div class="row">
+                    <div class="col form-group">
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col form-group">
+                        <input type="text" class="form-control" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Company name (optional)">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Type your email" required>
+                </div>
+                <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message" required></textarea>
+                      </div>
+                <button type="submit" class="btn btn-send">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">Incub' in Lille<span class="colored-text">.</span></h5>
+                    <p class="grey-text">Explore the digital ecosystem of Lille.</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Incubators</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="grey-text">Euratechnologies</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Eurasanté</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Blanchemaille</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Alacrité</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Agtech</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Innov</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Teams</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="grey-text">Sabine</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Shamsia</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Johan</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Khalid</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Damien</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text">Samir</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">Made with 🤘 by group 3 - 2019
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <script src="auto-type.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

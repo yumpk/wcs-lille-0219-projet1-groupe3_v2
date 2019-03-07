@@ -378,3 +378,42 @@ position:absolute;
     font-style: italic;
     text-shadow: 4px 3px 0 rgb(56, 56, 56);
 }
+
+/* CONTACT */
+
+.height-nerdy {
+    height: 300px;
+}
+
+.form-container {
+    width: 890px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: block;
+    color: #495057;
+    border: 3px solid #efefef;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.btn-send {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #34DA88 !important;
+    border-color: #34DA88 !important;
+    padding: 12px 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.btn-send:hover {
+    color: #fff;
+}
