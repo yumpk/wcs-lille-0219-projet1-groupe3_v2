@@ -8,26 +8,17 @@
 .horizontal-scroll-wrapper {
     scrollbar-color: #49DA88 transparent;
     scrollbar-width: thin;
-  display: block;
-  width: 75vh;
-  height: 85vw;
   margin: 5vh 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transform: rotate(-90deg) translateY(-77vh);
-  transform-origin: right top;
-  padding: 48vh 1vw 1vw 3vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  touch-action: pan-x;
 }
 
 .team-member {
     box-sizing: border-box;
   display: block;
   padding: 5px;
-  transform: rotate(90deg);
-  transform-origin: right top;
-  margin: -10vh 27vh;
   position: relative;
-  width: 60%;
     transition: 1.3s;
 }
 
