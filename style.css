@@ -432,3 +432,9 @@ a:hover {
 .btn-send:hover {
     color: #fff;
 }
+
+/* EQUIPMENTS & SERVICES*/
+
+.equipments2, .services2 {
+    margin-top:-60px;
+}
