@@ -2,15 +2,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-expand-lg  {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    top: -20px;
+    margin: 12px 0;
+    z-index: 1000;
+}
+
 #more {
   display: none;
 }
+
 section {
   margin-top: 5%;
 }
 
 body {
     color: #223649;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -56,6 +67,10 @@ a:hover {
     border: none;
     background-color: #FDFDFD;
     margin-left: 20px;
+}
+
+.container {
+    margin-top: 90px;
 }
 
 .container-fluid {
@@ -273,22 +288,22 @@ a:hover {
 .reset-margin {
     margin: 0 0;
 }
+.map-responsive-euratek {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    width: 100%;
+    height: 65%;
+}
+.map-responsive-euratek iframe {
+    left:0;
+    top:0;
+    height:65%;
+    width:100%;
+    position:absolute;
+    }
 
 /*** COMPANY PAGE ***/
-.map-responsive-euratek {
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-
-.map-responsive-euratek iframe {
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
 
 .sticky-top {
     height: 40vh;
@@ -350,6 +365,10 @@ position:absolute;
 }
 
 /***CAROUSEL***/
+
+.carousel-inner {
+    margin-top: 78px;
+}
 
 .slider {
     height: 400px;
