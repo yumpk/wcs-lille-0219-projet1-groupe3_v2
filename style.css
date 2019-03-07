@@ -151,10 +151,6 @@ a, a:hover {
     transition: .3s;
 }
 
-.job-apply-btn {
-    padding: 5% 41%;
-}
-
 .job-apply:hover {
     background: #34DA88;
 }
@@ -300,7 +296,7 @@ position:absolute;
 }
 
 .sticky-container {
-    margin: 10vh 0;
+    margin: 5vh 0;
     width: 100%;
     padding: 3%;
 }
