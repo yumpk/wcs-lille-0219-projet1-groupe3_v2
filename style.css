@@ -418,6 +418,7 @@ a:hover {
 
 .form-container {
     margin: 0 auto;
+    margin-top: -26px;
 }
 
 .form-control {
