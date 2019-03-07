@@ -311,7 +311,7 @@ a:hover {
 }
 
 .sticky-container {
-    margin: 5vh 0;
+    margin: 8vh 0;
     width: 100%;
     padding: 3%;
 }
@@ -332,7 +332,7 @@ a:hover {
 }
 
 .fab {
-    margin: 7% 0;
+    margin: 3% 0;
     font-size: 150%;
     transition: .3s;
 }
