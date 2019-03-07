@@ -393,19 +393,19 @@ a:hover {
     text-shadow: 4px 3px 0 rgb(56, 56, 56);
 }
 
-.badges-euratech{
+.badges-euratech, .badges-eurasante{
     width: 100%;
     margin-top: -10%;
 }
 
-.badges-euratech .badge{
+.badges-euratech .badge, .badges-eurasante .badge{
     color: white;
     font-weight:bold;
     text-shadow: 1px 1px black;
 }
 
 @media (max-width:768px){
-    .badges-euratech{
+    .badges-euratech, .badges-eurasante{
         display:none;
     }
 }
