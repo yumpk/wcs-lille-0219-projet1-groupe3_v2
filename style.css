@@ -366,6 +366,10 @@ a:hover {
 
 /***CAROUSEL***/
 
+.carousel-inner {
+    margin-top: 78px;
+}
+
 .slider {
     height: 400px;
     border-radius: 0px;
