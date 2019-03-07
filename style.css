@@ -390,8 +390,24 @@ a:hover {
     font-weight: 700;
     text-align: center;
     color: #fff;
-    
     text-shadow: 4px 3px 0 rgb(56, 56, 56);
+}
+
+.badges-euratech{
+    width: 100%;
+    margin-top: -10%;
+}
+
+.badges-euratech .badge{
+    color: white;
+    font-weight:bold;
+    text-shadow: 1px 1px black;
+}
+
+@media (max-width:768px){
+    .badges-euratech{
+        display:none;
+    }
 }
 
 /* CONTACT */
