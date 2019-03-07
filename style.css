@@ -5,12 +5,14 @@
 #more {
   display: none;
 }
+
 section {
   margin-top: 5%;
 }
 
 body {
     color: #223649;
+    overflow-x: hidden;
 }
 
 h1 {
