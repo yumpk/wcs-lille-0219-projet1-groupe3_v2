@@ -2,6 +2,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-expand-lg  {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    top: -20px;
+    margin: 12px 0;
+    z-index: 1000;
+}
+
 #more {
   display: none;
 }
@@ -58,6 +67,10 @@ a:hover {
     border: none;
     background-color: #FDFDFD;
     margin-left: 20px;
+}
+
+.container {
+    margin-top: 90px;
 }
 
 .container-fluid {
