@@ -73,10 +73,6 @@ a:hover {
     margin-top: 90px;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
 .nerdy-pen {
     max-width: 900px;
     margin: 0 auto;
@@ -138,9 +134,6 @@ ul {
     margin-top: 10px;
 }
 
-.container-fluid {
-    max-width: 940px;
-}
 
 .btn-primary {
     color: #fff;
@@ -321,7 +314,7 @@ a:hover {
         }
 /*** FRIZBIZ PAGE ***/
 
-.Frizbiz-bg-img {
+.desaturated-img {
     filter: saturate(0);
 }
 
@@ -376,12 +369,12 @@ a:hover {
     line-height: 2;
 }
 
-.shadow {
+.shadow-sm {
     transition: .3s;
 }
 
-.shadow:hover {
-    transform: scale(1.03);
+.shadow-sm:hover {
+    transform: scale(1.01);
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, .2);
 }
 
@@ -480,4 +473,15 @@ a:hover {
 
 .equipments2, .services2 {
     margin-top:-60px;
+}
+
+/* Footer */
+.modal-button {
+    width: 25%;
+    transition: .3s;
+}
+
+.modal-button:hover  {
+    cursor: pointer;
+    color: #000;
 }
