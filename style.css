@@ -512,3 +512,38 @@ textarea.form-control {
   cursor: pointer;
   color: #000;
 }
+
+/**** COOKIE ALERT ****/
+
+.cookiealert {
+  max-width: 450px;
+  margin: 20px 30px !important;
+  border-radius: 10px;
+  background: #fff !important;
+  opacity: 1;
+  color: #111;
+  box-shadow: 0px 3px 13px 1px #b1b1b1;
+}
+
+#cookies-image {
+  float: left;
+}
+#cookies-text {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 140px;
+}
+
+.acceptcookies {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #34da88 !important;
+  border-color: #34da88 !important;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin: 20px 10px 10px;
+  margin-left: -55px !important;
+}
