@@ -23,12 +23,12 @@ document.body.onload = () => {
     clapsCounter.id = 'clicks';
     newButton.append(clapsCounter);
     clapsCounter.classList.add("number");
-    clapsCounter.innerHTML = "533";
+    clapsCounter.innerHTML = data[i].nbClaps;
   }
 }
 
 // Create counter incrementation
-let clicks = 533;
+let clicks = Math.floor(Math.random() * 1000);
 
 const addClaps = () => {
   clicks += 1;

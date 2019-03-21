@@ -48,6 +48,10 @@ button {
 	background: none;
 }
 
+ .claps-button:active, .claps-button:visited, .claps-button:focus {
+	outline: none;
+}
+
 .claps-button:hover {
 	cursor: pointer;
 	transition: .3s;
