@@ -36,3 +36,14 @@ function verifyMessage(champ){
         return true;
     }
 }
+
+function verifyEmail(champ){
+  let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if(!regex.test(champ.value)) {
+      surligne(champ, true);
+      return false;
+  } else {
+  surligne(champ, false);
+  return true;
+  }
+}
