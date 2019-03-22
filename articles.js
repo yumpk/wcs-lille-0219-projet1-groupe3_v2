@@ -1,16 +1,8 @@
 document.body.onload = ()=>{
-    //console.log(data);
 
     const rootElement = document.getElementById('articles-gallery');
     for(let i=0;i<data.length;i++) {
         console.log(data[i]);
-
-        /*
-        let newP = document.createElement('p');
-        newP.innerHTML = data[i].title;
-        rootElement.appendChild(newP);
-        */
-
 
         const newImg = document.createElement('img');
         newImg.classList.add("card-img-top");
@@ -35,6 +27,7 @@ document.body.onload = ()=>{
         const clapsCount = document.createElement("p");
         clapsCount.classList.add("m-0");
         clapsCount.innerHTML = data[i].nbClaps;
+        //What to do, what to do
 
         const newClaps = document.createElement('div');
         newClaps.classList.add("claps-tag","shadow-sm","rounded");

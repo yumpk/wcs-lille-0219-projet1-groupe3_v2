@@ -1,8 +1,10 @@
 function surligne(champ, erreur){
-    if(erreur)
+    if(erreur){
       champ.style.backgroundColor = "#fba";
-    else
+    }
+    else{
       champ.style.backgroundColor = "";
+    }
 }
 
 function verifyFirstName(champ){
