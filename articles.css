@@ -80,13 +80,19 @@ button {
 	margin-top: 40vh;
 }
 
-.toast {
-	border-color: var(--main-color);
-	transition: .3s;
+.toast-links {
+	width: 100%;
+	box-shadow: none; 
 }
 
-.toast:hover {
+.toast {
+	border: none;
+}
+
+.toast-links:hover {
 	box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+	transition: .3s;
+	transform: scale(1.0);
 }
 
 .toast-header img {
