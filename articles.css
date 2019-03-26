@@ -92,7 +92,6 @@ button {
 .toast-links:hover {
 	box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
 	transition: .3s;
-	transform: scale(1.0);
 }
 
 .toast-header img {
