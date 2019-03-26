@@ -1,0 +1,83 @@
+nav {
+  background: white;
+  z-index: 9000;
+}
+
+.desaturated-img {
+  filter: saturate(0);
+}
+  
+.Frizbiz-logo {
+  width: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sticky-top {
+  padding: 3vh 0;
+}
+
+.sticky-container {
+  margin: 8vh 0;
+  width: 100%;
+  padding: 3%;
+}
+
+.website-btn {
+  border: 1px solid #34da88;
+  border-radius: 5px;
+  transition: 0.3s;
+  padding: 0.5rem 4vw;
+}
+
+.website-btn:hover {
+  background: #34da88;
+}
+
+.social-group {
+  width: 100%;
+}
+
+.fab {
+  margin: 3% 0;
+  font-size: 150%;
+  transition: 0.3s;
+}
+
+.social-network-btn:hover {
+  transition: 0.2s;
+}
+
+.social-network-btn:hover i {
+  color: #34da88;
+}
+
+.line-height {
+  line-height: 2;
+}
+
+.shadow-sm {
+  transition: 0.3s;
+}
+
+.shadow-sm:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 640px) {
+  .nerdy-pen__text {
+    font-size: 48px;
+  }
+}
+
+.job-apply {
+  transition: 0.3s;
+}
+
+.job-apply:hover {
+  background: #34da88;
+}
+  
