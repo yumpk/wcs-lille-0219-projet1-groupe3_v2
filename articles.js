@@ -18,7 +18,7 @@ document.body.onload = () => {
         newCardP.innerHTML = data[i].longText;
 
         const newCardButton = document.createElement('button');
-        newCardButton.classList.add("btn","btn-primary", "mx-auto");
+        newCardButton.classList.add("btn","btn-primary","mx-auto");
         newCardButton.innerHTML = data[i].shortText;
 
         const clapsIcon = document.createElement("img");

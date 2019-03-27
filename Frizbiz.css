@@ -16,11 +16,12 @@ nav {
 }
 
 .sticky-top {
-  padding: 3vh 0;
+  padding-top: 5vh;
+  z-index: 0;
 }
 
 .sticky-container {
-  margin: 8vh 0;
+  margin-top: 10vh;
   width: 100%;
   padding: 3%;
 }
@@ -63,7 +64,6 @@ nav {
 }
 
 .shadow-sm:hover {
-  transform: scale(1.01);
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
 }
 
