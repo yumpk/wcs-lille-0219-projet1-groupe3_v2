@@ -25,13 +25,6 @@
     filter: saturate(100%);
 }
 
-.separation {
-    height: 5px;
-    width: 3rem;
-    background: #34DA88;
-    margin: 1rem auto;
-}
-
 img {
     filter: saturate(0);
 }
